@@ -25,7 +25,15 @@ section a {
     color: orange;
 }
 
+.my-article {
+    color:hotpink;
+}
+
 .my-article p {
     background: lightblue;
     color: white;
+}
+
+.about {
+    color: #e90ab9
 }
