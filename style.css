@@ -1,5 +1,6 @@
 h1 {
-    color:chocolate
+    color:chocolate;
+    padding: 16px;
 }
 h2 {
     color: #1460AA
@@ -9,12 +10,17 @@ body {
     background-color: #fefefe;
 }
 
+section {
+    padding: 16px;
+}
+
 .czerwony {
     color: red;
 }
 
 #szkolenie {
     background-color: yellow;
+    padding: 16px;
 }
 
 a {
