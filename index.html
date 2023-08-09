@@ -10,30 +10,30 @@
 </head>
 
 <body>
-	<header class="page_header" id="top">
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="co-lubie.html">Co lubię</a>
-        </nav>
+	<header class="navigation" id="top">
+		<nav class="navigation__bar">
+			<a class="navigation__link" href="index.html">Strona główna</a>
+			<a class="navigation__link" href="nauka-html.html">Nauka html</a>
+			<a class="navigation__link" href="co-lubie.html">Co lubię</a>
+		</nav>
 	</header>
 	<main>
 		<header class="page_header">
 			<h1 class="page-header__heading page-header__heading--js">Wojciech Czuba - Strona domowa</h1>
 		</header>
 		<section class="about">
-			<h2 style="color: darkgreen;">Kim jestem?</h2>
-			<img src="/WCZ.JPG" alt="Zdjęcie Wojciech Czuba"/>
+			<h2 class="section__heading">Kim jestem?</h2>
+			<img src="/WCZ.JPG" alt="Zdjęcie Wojciech Czuba" />
 			<p>Trust me, I am engineer</p>
 			<p class="czerwony">
 				Poczytaj więcej o <a href="#style">stylach</a>
 			</p>
 		</section>
 		<section>
-			<h2>Notatki z WTF</h2>
+			<h2 class="section__heading">Notatki z WTF</h2>
 			<article>
-				<h3>Jak stworzyć prawidłowo html?</h3>
-				<p>Należy pamiętać o wykorzystaniu odpowiednich znaczników, dzięki, którym strona ma określony format i
+				<h3 class="article__heading">Jak stworzyć prawidłowo html?</h3>
+				<p class="article__text">Należy pamiętać o wykorzystaniu odpowiednich znaczników, dzięki, którym strona ma określony format i
 					strukturę</p>
 				<p>Warto dbać o odpowiednie formatowanie kodu.<br> W VS Code CTRL+SHIFT+P otwiera konsole z opcjami. Po
 					wpisaniu FORMAT Document, kod jest formatowany zgodnie z wykorzystanymi znacznikami i aktualną
@@ -54,10 +54,17 @@
 						semantyczne</strong></p>
 				<p>'i' oraz 'b' dają ten sam efekt ale nie mają znaczenia semantycznego</p>
 				<p>A to jest <a href="https://cotenfrontend.pl" target="_blank">link</a> do strony WTF</p>
-				<p>Możemy stylować używając stylów inline, klas lub selektora id. Inline są wykorzystywane bardzo rzadko. Klas można używać do dowolnej liczby elementów
-					natomiast selektor id jest unikalny i może być tylko jeden na stronie. dodanie informacji <strong>!important</strong> w definicji stylu
+				<p>Możemy stylować używając stylów inline, klas lub selektora id. Inline są wykorzystywane bardzo
+					rzadko. Klas można używać do dowolnej liczby elementów
+					natomiast selektor id jest unikalny i może być tylko jeden na stronie. dodanie informacji
+					<strong>!important</strong> w definicji stylu
 					nadpisuje wcześniej zdefiniowane
 				</p>
+				<p>
+					Ustawienie wartości parametru <em>display</em> na <strong><em>block</em></strong> powoduje, że każdy nowy element będzie przesuwany
+					do następnego wiersza
+				</p>
+				<p>Width i Height nie działają na elementach z display inline</p>
 			</article>
 		</section>
 	</main>
@@ -65,7 +72,6 @@
 	<footer>
 		<p>Strona domowa Wojciech Czuba. <a href="#top">Do góry</a></p>
 	</footer>
-<script defer src="main.js"></script>
+	<script defer src="main.js"></script>
 </body>
-
 </html>

@@ -1,17 +1,47 @@
-h1 {
-    color:chocolate;
-    padding: 16px;
+html {
+    box-sizing: border-box;
 }
-h2 {
-    color: #1460AA
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
     background-color: #fefefe;
 }
 
-section {
+footer {
     padding: 16px;
+	color: rgb(135, 136, 139);
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+    padding: 16px;
+}
+
+section {
+    padding: 0 16px;
+}
+
+.navigation {
+    background: #0a51e9;
+}
+
+.navigation__bar {
+    padding: 16px;
+}
+
+.navigation__link {
+    padding: 10px;
+    margin: 10px;
+    color:#fefefe
+}
+
+.page-header__heading {
+    padding: 16px;
+    margin: 0;
 }
 
 .czerwony {
@@ -38,12 +68,16 @@ section a {
 .my-article p {
     background: lightblue;
     color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 16px;
+    margin: 10px auto;
 }
 
 .about {
-    color: #e90ab9
+    color: #e90ab9;
 }
 
 .hobby {
-    color: #5f13eb
+    color: #5f13eb;
 }
