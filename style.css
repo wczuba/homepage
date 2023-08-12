@@ -10,11 +10,30 @@ body {
     background-color: #fefefe;
 }
 
-footer {
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.footer {
     padding: 16px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.footer__content {
 	color: rgb(135, 136, 139);
-	width: 100%;
-	text-align: center;
+}
+
+.footer__content--top-link {
+    position: fixed;
+    color: white;
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 12px;
+    background-color: black;
+    display: block;
+    border-radius: 8px;
 }
 
 h1 {
@@ -22,11 +41,26 @@ h1 {
 }
 
 section {
-    padding: 0 16px;
+    padding: 16px;
+}
+
+.section {
+    background-color: #dcdcdc;
+    margin-bottom: 0;
+}
+
+.section_header {
+    color:#0a51e9;
+}
+
+.section_image {
+    max-width: 100%
 }
 
 .navigation {
     background: #0a51e9;
+    position: sticky;
+    top: 0;
 }
 
 .navigation__bar {
@@ -63,19 +97,14 @@ section a {
 
 .my-article {
     color:hotpink;
+    margin-bottom: 32px;
 }
 
 .my-article p {
-    background: lightblue;
+    background: rgb(9, 128, 168);
     color: white;
-    width: 100%;
-    max-width: 1000px;
     padding: 16px;
-    margin: 10px auto;
-}
-
-.about {
-    color: #e90ab9;
+    margin-bottom: 32px;
 }
 
 .hobby {
