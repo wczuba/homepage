@@ -73,9 +73,13 @@ section {
     color:#fefefe
 }
 
-.page-header__heading {
+.page-header {
     padding: 16px;
     margin: 0;
+}
+
+.page-header__heading {
+    font-size: 32px;
 }
 
 .czerwony {
@@ -109,4 +113,13 @@ section a {
 
 .hobby {
     color: #5f13eb;
+}
+
+.section p {
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    text-align: center;
 }

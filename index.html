@@ -23,7 +23,7 @@
 		</header>
 		<section class="section">
 			<h2 class="section__header">Kim jestem?</h2>
-			<img class="section_image" src="/WCZ.JPG" alt="Zdjęcie Wojciech Czuba" />
+			<img class="section__image" src="/WCZ.JPG" alt="Zdjęcie Wojciech Czuba" />
 			<p>Trust me, I am engineer</p>
 			<p class="czerwony">
 				Poczytaj więcej o <a href="#style">stylach</a>
@@ -51,8 +51,8 @@
 			<article class="my-article" id="style">
 				<h3 class="my_article__header">Style</h3>
 				<p>Używać 'em' <em>do podkreślania tekstu</em> oraz 'strong' <strong>ponieważ mają znaczenie
-						semantyczne</strong></p>
-				<p>'i' oraz 'b' dają ten sam efekt ale nie mają znaczenia semantycznego</p>
+						semantyczne</strong> 'i' oraz 'b' dają ten sam efekt ale nie mają znaczenia semantycznego</p>
+
 				<p>A to jest <a href="https://cotenfrontend.pl" target="_blank">link</a> do strony WTF</p>
 				<p>Możemy stylować używając stylów inline, klas lub selektora id. Inline są wykorzystywane bardzo
 					rzadko. Klas można używać do dowolnej liczby elementów
@@ -61,17 +61,56 @@
 					nadpisuje wcześniej zdefiniowane
 				</p>
 				<p>
-					Ustawienie wartości parametru <em>display</em> na <strong><em>block</em></strong> powoduje, że każdy nowy element będzie przesuwany
+					Ustawienie wartości parametru <em>display</em> na <strong><em>block</em></strong> powoduje, że każdy
+					nowy element będzie przesuwany
 					do następnego wiersza
 				</p>
 				<p>Width i Height nie działają na elementach z display inline</p>
+			</article>
+			<article class="my-article">
+				<h3 class="my_article__header">Listy</h3>
+				<ul>
+					<li>Element 1</li>
+					<li>Element 2</li>
+				</ul>
+				<ol>
+					<li>Element numerowany 1</li>
+					<li>Element numerowany 2</li>
+				</ol>
+			</article>
+			<article class="my-article">
+				<table>
+					<caption>Star Wars: Ashoka</caption>
+					<thead>
+						<tr>
+							<th>Episode</th>
+							<th>Description</th>
+							<th>Date</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>						
+							<td>I</td>
+							<td>"Part One: Master and Apprentice" ❤️</td>
+							<td>22.08.2023</td>
+						</tr>
+						<tr>
+							<td>II</td>
+							<td>"Part Two: Master and Apprentice"</td>
+							<td>22.08.2023</td>
+						</tr>
+
+					</tbody>
+				</table>
 			</article>
 		</section>
 	</main>
 
 	<footer class="footer">
-		<p class="footer__content">Strona domowa Wojciech Czuba. <a href="#top" class="footer__content--top-link">Do góry</a></p>
+		<p class="footer__content">Strona domowa Wojciech Czuba. <a href="#top" class="footer__content--top-link">Do
+				góry</a></p>
 	</footer>
 	<script defer src="main.js"></script>
 </body>
+
 </html>
