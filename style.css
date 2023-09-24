@@ -64,7 +64,10 @@ section {
 }
 
 .navigation__bar {
-    padding: 16px;
+    display: flex;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
 }
 
 .navigation__link {
